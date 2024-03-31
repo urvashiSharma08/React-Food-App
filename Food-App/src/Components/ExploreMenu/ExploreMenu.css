@@ -8,8 +8,8 @@
     font-weight: 500;
 }
 .explore-menu-text{
-    max-width: 60%;
-    /* color: #d38ad6; colorchnge */
+    text-align: left;
+     color: white; 
 }
 .explore-menu-list{
     display: flex;

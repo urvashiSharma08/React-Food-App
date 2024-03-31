@@ -95,7 +95,7 @@ export const food_list = [
         name: "Ripple Ice Cream",
         image: food_9,
         price: 140,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Food provides essential nutrients for overall health ",
         category: "Deserts"
     }, {
         _id: "10",
@@ -116,7 +116,7 @@ export const food_list = [
         name: "Vanilla Ice Cream",
         image: food_12,
         price: 120,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Food provides essential nutrients for overall health ",
         category: "Deserts"
     },
     {
@@ -167,7 +167,7 @@ export const food_list = [
         name: "Butterscotch Cake",
         image: food_19,
         price: 200,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Food provides essential nutrients for overall health ",
         category: "Cake"
     }, {
         _id: "20",
@@ -181,14 +181,14 @@ export const food_list = [
         name: "Garlic Mushroom ",
         image: food_21,
         price: 140,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Food provides essential nutrients for overall health ",
         category: "Pure Veg"
     }, {
         _id: "22",
         name: "Fried Cauliflower",
         image: food_22,
         price: 220,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Food provides essential nutrients for overall health",
         category: "Pure Veg"
     }, {
         _id: "23",
@@ -260,7 +260,7 @@ export const food_list = [
         name: "Cooked Noodles",
         image: food_32,
         price: 150,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Food provides essential nutrients for overall health",
         category: "Noodles"
     }
 ];
