@@ -1,0 +1,119 @@
+.cart {
+    margin-top: 100px;
+}
+
+.cart-items-title {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: rgb(46, 46, 46);
+    font-size: max(1vw, 20px);
+}
+
+.cart-items-item {
+    margin: 10px 0px;
+    color: #5d4761;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.cart-items-item img {
+    width: 55px;
+}
+
+.cart hr {
+    height: 1px;
+    background-color: #fff0f5;
+    border: none;
+}
+
+.cart-items-item .cross {
+    cursor: pointer;
+}
+
+.cart-bottom {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw, 20px);
+}
+
+.cart-total {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(46, 46, 46);
+    ;
+}
+
+.cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    color: #5d4761;
+}
+
+.cart-total hr {
+    margin: 10px 0px;
+    color: #fff0f5;
+}
+
+.cart-total button {
+    border: none;
+    background-color: #8B008B;
+    color: #fff0f5;
+    width: max(15vw, 200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-total button:hover {
+    transform: scale(1.04);
+    transition: 0.7s;
+    ;
+}
+
+.cart-promocode {
+    flex: 1;
+}
+
+.cart-promocode p {
+    color: #5d4761;
+}
+
+.cart-promocode-input {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(206, 164, 206);
+    color: #fff0f5;
+    border-radius: 4px;
+}
+
+.cart-promocode-input input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.cart-promocode-input button {
+    width: max(10vw, 150px);
+    padding: 10px 5px;
+    background-color: #030303;
+    border: none;
+    color: #fff0f5;
+    border-radius: 4px;
+}
+
+@media (max-width:750px) {
+    .cart-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .cart-promocode {
+        justify-content: start;
+    }
+}
