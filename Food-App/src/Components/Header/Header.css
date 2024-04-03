@@ -1,10 +1,12 @@
 .header {
-    height: 34vw;
+    height: 50vw;
+    border-radius: 15px;
     margin: 30px auto;
-    background: url(/header_img.png) no-repeat;
-    background-size: contain;
+    background: url(/Header.jpg) no-repeat;
+    background-size :cover;
     position: relative;
-}
+    border: 1px dotted #ee91ee;
+  }
 
 .header-contents {
     position: absolute;
@@ -20,12 +22,12 @@
 
 .header-contents h2 {
     font-weight: 500;
-    color: aliceblue;
+    color: #4b024b;
     font-size: max(4.5vw, 22px);
 }
 
 .header-contents p {
-    color: aliceblue;
+    color: black;
     font-size: 1vw;
 }
 
